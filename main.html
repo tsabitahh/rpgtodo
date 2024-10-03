@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RPG Quest</title>
+  <link href="design.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--device frame-->
+  <div class="deviceframe">
+
+    <!--todo app-->
+    <div class="todoapp" class="header">
+      <h1>RPG Quest</h1>
+      <input type="text" id="myInput" placeholder="Add new quest">
+      <span onclick="newElement()" class="addBtn">Add Quest</span>
+    </div>
+
+    <!--list-->
+    <div class="container">
+      <ul id="questList">
+        <li>Complete LeetCode easy problems</li>
+        <li>Watch soldering tutorial</li>
+        <li>Finish todo app project</li>
+        <li>Do laundry</li>
+      </ul>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
